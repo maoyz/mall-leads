@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: @activatedProperties@
+  shardingsphere:
+    enabled: false # 关闭自动注解使用Java Config 的方式
+
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+
+logging:
+  config: classpath:log4j2.xml
+
+
+

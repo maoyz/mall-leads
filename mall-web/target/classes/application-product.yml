@@ -1,0 +1,66 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    hikari:
+      master0:
+        jdbc-url: jdbc:mysql://localhost:3339/ds0?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
+        username: root
+        password: 123456
+        maximum-pool-size: 20
+        pool-name: master
+        connection-timeout: 30000
+        idle-timeout: 600000
+        max-lifetime: 1765000
+      master0slave0:
+        jdbc-url: jdbc:mysql://localhost:3340/ds0?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
+        username: root
+        password: 123456
+        maximum-pool-size: 80
+        pool-name: slave
+        connection-timeout: 30000
+        idle-timeout: 600000
+        max-lifetime: 1765000
+        read-only: true
+      master0slave1:
+        jdbc-url: jdbc:mysql://localhost:3340/ds0?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
+        username: root
+        password: 123456
+        maximum-pool-size: 80
+        pool-name: slave
+        connection-timeout: 30000
+        idle-timeout: 600000
+        max-lifetime: 1765000
+        read-only: true
+
+
+      master1:
+        jdbc-url: jdbc:mysql://localhost:3349/ds1?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
+        username: root
+        password: 123456
+        maximum-pool-size: 20
+        pool-name: master
+        connection-timeout: 30000
+        idle-timeout: 600000
+        max-lifetime: 1765000
+      master1slave0:
+        jdbc-url: jdbc:mysql://localhost:3350/ds1?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
+        username: root
+        password: 123456
+        maximum-pool-size: 80
+        pool-name: slave
+        connection-timeout: 30000
+        idle-timeout: 600000
+        max-lifetime: 1765000
+        read-only: true
+      master1slave1:
+        jdbc-url: jdbc:mysql://localhost:3350/ds1?useUnicode=true&characterEncoding=utf8&useSSL=true&allowMultiQueries=true&verifyServerCertificate=false
+        username: root
+        password: 123456
+        maximum-pool-size: 80
+        pool-name: slave
+        connection-timeout: 30000
+        idle-timeout: 600000
+        max-lifetime: 1765000
+        read-only: true
