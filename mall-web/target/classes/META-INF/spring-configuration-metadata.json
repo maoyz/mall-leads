@@ -74,6 +74,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master0.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master0.auto-commit",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -140,6 +160,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.connection-init-sql",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -214,6 +254,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master0.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master0.connection-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -280,6 +340,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.data-source-j-n-d-i",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -354,6 +434,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master0.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master0.driver-class-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -421,6 +521,26 @@
     {
       "name": "spring.datasource.hikari.master0.health-check-properties",
       "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.health-check-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -490,6 +610,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.initialization-fail-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -564,8 +704,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0.jdbc-url",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master0.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.isolate-internal-queries",
+      "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -596,6 +741,31 @@
     {
       "name": "spring.datasource.hikari.master0.jdbc-url",
       "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.leak-detection-threshold",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -669,8 +839,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0.max-lifetime",
-      "type": "java.lang.Long",
+      "name": "spring.datasource.hikari.master0.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.login-timeout",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -701,6 +876,31 @@
     {
       "name": "spring.datasource.hikari.master0.max-lifetime",
       "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.maximum-pool-size",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -774,8 +974,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0.metrics-tracker-factory",
-      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "name": "spring.datasource.hikari.master0.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.metric-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -806,6 +1011,31 @@
     {
       "name": "spring.datasource.hikari.master0.metrics-tracker-factory",
       "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.minimum-idle",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -875,6 +1105,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.pool-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -949,7 +1199,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0.register-mbeans",
+      "name": "spring.datasource.hikari.master0.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.read-only",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -981,6 +1236,31 @@
     {
       "name": "spring.datasource.hikari.master0.register-mbeans",
       "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1050,6 +1330,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.transaction-isolation",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -1124,6 +1424,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master0.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master0.validation-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -1190,6 +1510,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave0.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.auto-commit",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -1264,7 +1604,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave0.connection-init-sql",
+      "name": "spring.datasource.hikari.master0slave0.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.catalog",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -1295,6 +1640,31 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.connection-test-query",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -1369,8 +1739,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave0.data-source-class-name",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master0slave0.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.connection-timeout",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1400,6 +1775,31 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.data-source-j-n-d-i",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -1474,6 +1874,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master0slave0.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master0slave0.driver-class-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -1541,6 +1961,26 @@
     {
       "name": "spring.datasource.hikari.master0slave0.health-check-properties",
       "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.health-check-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1610,6 +2050,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.initialization-fail-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -1684,8 +2144,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave0.jdbc-url",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master0slave0.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.isolate-internal-queries",
+      "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1716,6 +2181,31 @@
     {
       "name": "spring.datasource.hikari.master0slave0.jdbc-url",
       "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.leak-detection-threshold",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1789,8 +2279,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave0.max-lifetime",
-      "type": "java.lang.Long",
+      "name": "spring.datasource.hikari.master0slave0.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.login-timeout",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1821,6 +2316,31 @@
     {
       "name": "spring.datasource.hikari.master0slave0.max-lifetime",
       "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.maximum-pool-size",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1894,8 +2414,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave0.metrics-tracker-factory",
-      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "name": "spring.datasource.hikari.master0slave0.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.metric-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1926,6 +2451,31 @@
     {
       "name": "spring.datasource.hikari.master0slave0.metrics-tracker-factory",
       "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.minimum-idle",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -1995,6 +2545,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.pool-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -2069,7 +2639,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave0.register-mbeans",
+      "name": "spring.datasource.hikari.master0slave0.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.read-only",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -2101,6 +2676,31 @@
     {
       "name": "spring.datasource.hikari.master0slave0.register-mbeans",
       "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -2170,6 +2770,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.transaction-isolation",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -2244,6 +2864,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master0slave0.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave0.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master0slave0.validation-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -2310,6 +2950,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.auto-commit",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -2384,7 +3044,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave1.connection-init-sql",
+      "name": "spring.datasource.hikari.master0slave1.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.catalog",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -2415,6 +3080,31 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.connection-test-query",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -2489,8 +3179,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave1.data-source-class-name",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master0slave1.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.connection-timeout",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -2520,6 +3215,31 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.data-source-j-n-d-i",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -2594,6 +3314,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master0slave1.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master0slave1.driver-class-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -2661,6 +3401,26 @@
     {
       "name": "spring.datasource.hikari.master0slave1.health-check-properties",
       "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.health-check-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -2730,6 +3490,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.initialization-fail-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -2804,8 +3584,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave1.jdbc-url",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master0slave1.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.isolate-internal-queries",
+      "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -2836,6 +3621,31 @@
     {
       "name": "spring.datasource.hikari.master0slave1.jdbc-url",
       "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.leak-detection-threshold",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -2909,8 +3719,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave1.max-lifetime",
-      "type": "java.lang.Long",
+      "name": "spring.datasource.hikari.master0slave1.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.login-timeout",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -2941,6 +3756,31 @@
     {
       "name": "spring.datasource.hikari.master0slave1.max-lifetime",
       "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.maximum-pool-size",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -3014,8 +3854,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave1.metrics-tracker-factory",
-      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "name": "spring.datasource.hikari.master0slave1.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.metric-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -3046,6 +3891,31 @@
     {
       "name": "spring.datasource.hikari.master0slave1.metrics-tracker-factory",
       "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.minimum-idle",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -3115,6 +3985,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.pool-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -3189,7 +4079,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master0slave1.register-mbeans",
+      "name": "spring.datasource.hikari.master0slave1.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.read-only",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -3221,6 +4116,31 @@
     {
       "name": "spring.datasource.hikari.master0slave1.register-mbeans",
       "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -3290,6 +4210,26 @@
     },
     {
       "name": "spring.datasource.hikari.master0slave1.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.transaction-isolation",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -3364,6 +4304,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master0slave1.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master0slave1.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master0slave1.validation-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -3430,6 +4390,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.auto-commit",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -3504,7 +4484,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1.connection-init-sql",
+      "name": "spring.datasource.hikari.master1.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.catalog",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -3535,6 +4520,31 @@
     },
     {
       "name": "spring.datasource.hikari.master1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.connection-test-query",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -3609,8 +4619,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1.data-source-class-name",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master1.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.connection-timeout",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -3640,6 +4655,31 @@
     },
     {
       "name": "spring.datasource.hikari.master1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.data-source-j-n-d-i",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -3714,6 +4754,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master1.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master1.driver-class-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -3781,6 +4841,26 @@
     {
       "name": "spring.datasource.hikari.master1.health-check-properties",
       "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.health-check-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -3850,6 +4930,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.initialization-fail-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -3924,8 +5024,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1.jdbc-url",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master1.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.isolate-internal-queries",
+      "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -3956,6 +5061,31 @@
     {
       "name": "spring.datasource.hikari.master1.jdbc-url",
       "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.leak-detection-threshold",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -4029,8 +5159,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1.max-lifetime",
-      "type": "java.lang.Long",
+      "name": "spring.datasource.hikari.master1.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.login-timeout",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -4061,6 +5196,31 @@
     {
       "name": "spring.datasource.hikari.master1.max-lifetime",
       "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.maximum-pool-size",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -4134,8 +5294,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1.metrics-tracker-factory",
-      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "name": "spring.datasource.hikari.master1.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.metric-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -4166,6 +5331,31 @@
     {
       "name": "spring.datasource.hikari.master1.metrics-tracker-factory",
       "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.minimum-idle",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -4235,6 +5425,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.pool-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -4309,7 +5519,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1.register-mbeans",
+      "name": "spring.datasource.hikari.master1.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.read-only",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -4341,6 +5556,31 @@
     {
       "name": "spring.datasource.hikari.master1.register-mbeans",
       "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -4410,6 +5650,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.transaction-isolation",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -4484,6 +5744,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master1.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master1.validation-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -4550,6 +5830,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave0.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.auto-commit",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -4624,7 +5924,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave0.connection-init-sql",
+      "name": "spring.datasource.hikari.master1slave0.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.catalog",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -4655,6 +5960,31 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.connection-test-query",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -4729,8 +6059,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave0.data-source-class-name",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master1slave0.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.connection-timeout",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -4760,6 +6095,31 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.data-source-j-n-d-i",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -4834,6 +6194,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master1slave0.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master1slave0.driver-class-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -4901,6 +6281,26 @@
     {
       "name": "spring.datasource.hikari.master1slave0.health-check-properties",
       "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.health-check-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -4970,6 +6370,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.initialization-fail-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -5044,8 +6464,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave0.jdbc-url",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master1slave0.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.isolate-internal-queries",
+      "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -5076,6 +6501,31 @@
     {
       "name": "spring.datasource.hikari.master1slave0.jdbc-url",
       "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.leak-detection-threshold",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -5149,8 +6599,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave0.max-lifetime",
-      "type": "java.lang.Long",
+      "name": "spring.datasource.hikari.master1slave0.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.login-timeout",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -5181,6 +6636,31 @@
     {
       "name": "spring.datasource.hikari.master1slave0.max-lifetime",
       "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.maximum-pool-size",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -5254,8 +6734,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave0.metrics-tracker-factory",
-      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "name": "spring.datasource.hikari.master1slave0.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.metric-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -5286,6 +6771,31 @@
     {
       "name": "spring.datasource.hikari.master1slave0.metrics-tracker-factory",
       "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.minimum-idle",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -5355,6 +6865,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.pool-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -5429,7 +6959,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave0.register-mbeans",
+      "name": "spring.datasource.hikari.master1slave0.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.read-only",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -5461,6 +6996,31 @@
     {
       "name": "spring.datasource.hikari.master1slave0.register-mbeans",
       "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -5530,6 +7090,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.transaction-isolation",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -5604,6 +7184,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master1slave0.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave0.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master1slave0.validation-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -5670,6 +7270,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.allow-pool-suspension",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.auto-commit",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.auto-commit",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -5744,7 +7364,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave1.connection-init-sql",
+      "name": "spring.datasource.hikari.master1slave1.catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.catalog",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -5775,6 +7400,31 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.connection-init-sql",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.connection-test-query",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.connection-test-query",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -5849,8 +7499,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave1.data-source-class-name",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master1slave1.connection-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.connection-timeout",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -5880,6 +7535,31 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.data-source-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.data-source-j-n-d-i",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.data-source-j-n-d-i",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -5954,6 +7634,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master1slave1.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.data-source-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master1slave1.driver-class-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -6021,6 +7721,26 @@
     {
       "name": "spring.datasource.hikari.master1slave1.health-check-properties",
       "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.health-check-properties",
+      "type": "java.util.Properties",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.health-check-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.health-check-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -6090,6 +7810,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.idle-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.initialization-fail-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.initialization-fail-timeout",
       "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -6164,8 +7904,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave1.jdbc-url",
-      "type": "java.lang.String",
+      "name": "spring.datasource.hikari.master1slave1.isolate-internal-queries",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.isolate-internal-queries",
+      "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -6196,6 +7941,31 @@
     {
       "name": "spring.datasource.hikari.master1slave1.jdbc-url",
       "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.jdbc-url",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.leak-detection-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.leak-detection-threshold",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -6269,8 +8039,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave1.max-lifetime",
-      "type": "java.lang.Long",
+      "name": "spring.datasource.hikari.master1slave1.login-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.login-timeout",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -6301,6 +8076,31 @@
     {
       "name": "spring.datasource.hikari.master1slave1.max-lifetime",
       "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.max-lifetime",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.maximum-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.maximum-pool-size",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -6374,8 +8174,13 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave1.metrics-tracker-factory",
-      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "name": "spring.datasource.hikari.master1slave1.metric-registry",
+      "type": "java.lang.Object",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.metric-registry",
+      "type": "java.lang.Object",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -6406,6 +8211,31 @@
     {
       "name": "spring.datasource.hikari.master1slave1.metrics-tracker-factory",
       "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.minimum-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.minimum-idle",
+      "type": "java.lang.Integer",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -6475,6 +8305,26 @@
     },
     {
       "name": "spring.datasource.hikari.master1slave1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.password",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.pool-name",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.pool-name",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -6549,7 +8399,12 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
-      "name": "spring.datasource.hikari.master1slave1.register-mbeans",
+      "name": "spring.datasource.hikari.master1slave1.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.read-only",
       "type": "java.lang.Boolean",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
@@ -6581,6 +8436,31 @@
     {
       "name": "spring.datasource.hikari.master1slave1.register-mbeans",
       "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.register-mbeans",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
@@ -6654,6 +8534,26 @@
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {
+      "name": "spring.datasource.hikari.master1slave1.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.schema",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.transaction-isolation",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
       "name": "spring.datasource.hikari.master1slave1.transaction-isolation",
       "type": "java.lang.String",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
@@ -6721,6 +8621,26 @@
     {
       "name": "spring.datasource.hikari.master1slave1.username",
       "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.username",
+      "type": "java.lang.String",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.validation-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.zaxxer.hikari.HikariDataSource"
+    },
+    {
+      "name": "spring.datasource.hikari.master1slave1.validation-timeout",
+      "type": "java.lang.Long",
       "sourceType": "com.zaxxer.hikari.HikariDataSource"
     },
     {

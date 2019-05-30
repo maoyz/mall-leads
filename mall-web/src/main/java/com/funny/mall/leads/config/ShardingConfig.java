@@ -84,11 +84,11 @@ public class ShardingConfig {
         shardingRuleConfig.setMasterSlaveRuleConfigs(getMasterSlaveRuleConfigurations());
 
 //        // 分库算法
-//        shardingRuleConfig.setDefaultDatabaseShardingStrategyConfig(new StandardShardingStrategyConfiguration("user_id",
-//                new DatabaseShardingAlgorithm()));
-//        /// 分表算法
-//        shardingRuleConfig.setDefaultTableShardingStrategyConfig(new StandardShardingStrategyConfiguration("order_id",
-//                new TableShardingAlgorithm(), new TableRangeShardingAlgorithm()));
+        shardingRuleConfig.setDefaultDatabaseShardingStrategyConfig(new StandardShardingStrategyConfiguration("user_id",
+                new DatabaseShardingAlgorithm()));
+        /// 分表算法
+        shardingRuleConfig.setDefaultTableShardingStrategyConfig(new StandardShardingStrategyConfiguration("order_id",
+                new TableShardingAlgorithm(), new TableRangeShardingAlgorithm()));
 
         Map<String, DataSource> dataSourceMap = new HashMap<>();
         dataSourceMap.put("master0", master0);
@@ -112,15 +112,8 @@ public class ShardingConfig {
         //整个inline表达式最终会是一个笛卡尔积，表示ds_0.t_order_0. ds_0.t_order_1
         // ds_1.t_order_0. ds_1.t_order_0
         //主键生成列，默认的主键生成算法是 SNOWFLAKE
-//        KeyGeneratorConfiguration keyGeneratorConfiguration = new KeyGeneratorConfiguration("SNOWFLAKE","order_id");
-//        orderTableRuleConfig.setKeyGeneratorConfig(keyGeneratorConfiguration);
-        //设置分片策略，这里简单起见直接取模，也可以使用自定义算法来实现分片规则
-        orderTableRuleConfig.setDatabaseShardingStrategyConfig(new InlineShardingStrategyConfiguration("user_id",
-                "ds${user_id % 2}"));
-
-        orderTableRuleConfig.setTableShardingStrategyConfig(new InlineShardingStrategyConfiguration("order_id",
-                "t_order_${order_id % 2}"));
-
+        KeyGeneratorConfiguration keyGeneratorConfiguration = new KeyGeneratorConfiguration("SNOWFLAKE","order_id");
+        orderTableRuleConfig.setKeyGeneratorConfig(keyGeneratorConfiguration);
         return orderTableRuleConfig;
     }
 

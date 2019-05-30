@@ -14,6 +14,22 @@ public class UserController {
     @Autowired
     private OrderMapper orderMapper;
 
+    @RequestMapping("/order/save")
+    @ResponseBody
+    public String save() {
+
+        for (int i = 0; i < 100; i++) {
+            OrderEntity orderEntity = new OrderEntity();
+            Long userId = Long.valueOf((int) (Math.random() * 1000));
+            orderEntity.setUserName("test user " + userId);
+            orderEntity.setUserId(userId);
+            orderEntity.setOrderNo("order Name");
+            orderMapper.insert(orderEntity);
+        }
+        return "success";
+    }
+
+
     @RequestMapping("/save")
     @ResponseBody
     public String db() {
@@ -59,9 +75,15 @@ public class UserController {
     }
 
 
+    /**
+     * long 类型 到前台js 会丢失精度
+     * @param userId
+     * @return
+     */
     @GetMapping("/order/user/{userId}")
     public List<OrderEntity> getUserOrders(@PathVariable Long userId) {
-        return orderMapper.findByUserId(userId);
+        List<OrderEntity> orderEntityList = orderMapper.findByUserId(userId);
+        return orderEntityList;
     }
 
 
