@@ -83,12 +83,12 @@ public class ShardingConfig {
 
         shardingRuleConfig.setMasterSlaveRuleConfigs(getMasterSlaveRuleConfigurations());
 
-        // 分库算法
-        shardingRuleConfig.setDefaultDatabaseShardingStrategyConfig(new StandardShardingStrategyConfiguration("user_id",
-                new DatabaseShardingAlgorithm()));
-        /// 分表算法
-        shardingRuleConfig.setDefaultTableShardingStrategyConfig(new StandardShardingStrategyConfiguration("order_id",
-                new TableShardingAlgorithm(), new TableRangeShardingAlgorithm()));
+//        // 分库算法
+//        shardingRuleConfig.setDefaultDatabaseShardingStrategyConfig(new StandardShardingStrategyConfiguration("user_id",
+//                new DatabaseShardingAlgorithm()));
+//        /// 分表算法
+//        shardingRuleConfig.setDefaultTableShardingStrategyConfig(new StandardShardingStrategyConfiguration("order_id",
+//                new TableShardingAlgorithm(), new TableRangeShardingAlgorithm()));
 
         Map<String, DataSource> dataSourceMap = new HashMap<>();
         dataSourceMap.put("master0", master0);
@@ -104,7 +104,7 @@ public class ShardingConfig {
 
     //
     private static TableRuleConfiguration getOrderTableRuleConfiguration() {
-        TableRuleConfiguration orderTableRuleConfig = new TableRuleConfiguration("t_order","ds${0..1}.t_order_${0..1}");
+        TableRuleConfiguration orderTableRuleConfig = new TableRuleConfiguration("t_order", "ds${0..1}.t_order_${0..1}");
         //配置逻辑表名，并非数据库中真实存在的表名，而是sql中使用的那个，不受分片策略而改变.
         //例如：select * frpm t_order where user_id = xxx
         //配置真实的数据节点，即数据库中真实存在的节点，由数据源名 + 表名组成
@@ -115,11 +115,11 @@ public class ShardingConfig {
 //        KeyGeneratorConfiguration keyGeneratorConfiguration = new KeyGeneratorConfiguration("SNOWFLAKE","order_id");
 //        orderTableRuleConfig.setKeyGeneratorConfig(keyGeneratorConfiguration);
         //设置分片策略，这里简单起见直接取模，也可以使用自定义算法来实现分片规则
+        orderTableRuleConfig.setDatabaseShardingStrategyConfig(new InlineShardingStrategyConfiguration("user_id",
+                "ds${user_id % 2}"));
+
         orderTableRuleConfig.setTableShardingStrategyConfig(new InlineShardingStrategyConfiguration("order_id",
                 "t_order_${order_id % 2}"));
-
-        orderTableRuleConfig.setDatabaseShardingStrategyConfig(new StandardShardingStrategyConfiguration("user_id",
-                new DatabaseShardingAlgorithm()));
 
         return orderTableRuleConfig;
     }
@@ -134,10 +134,8 @@ public class ShardingConfig {
     }
 
 
-
-
     private static TableRuleConfiguration getOrderItemTableRuleConfiguration() {
-        TableRuleConfiguration result = new TableRuleConfiguration("t_order_item","ds${0..1}.t_order_item_${0..1}");
+        TableRuleConfiguration result = new TableRuleConfiguration("t_order_item", "ds${0..1}.t_order_item_${0..1}");
         return result;
     }
 

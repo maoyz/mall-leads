@@ -3,7 +3,17 @@
 <mapper namespace="com.funny.mall.leads.dao.OrderMapper">
     <select id="findByUserId" parameterType="com.funny.mall.leads.entity.OrderEntity" resultMap="BaseResultMap">
         SELECT
-        <include refid="Base_Column_List" />
+        <include refid="Base_Column_List"/>
         FROM t_order where user_id = #{userId}
+    </select>
+
+
+    <select id="findByOrderIds" parameterType="list" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM t_order where order_id in
+        <foreach collection="list" open="(" close=")" separator="," item="id">
+              #{id,jdbcType=BIGINT}
+        </foreach>
     </select>
 </mapper>
