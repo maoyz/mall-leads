@@ -8,4 +8,9 @@ import java.util.List;
 public interface OrderMapper extends BaseMapper<OrderEntity> {
 
     List<OrderEntity> findByUserId(Long userId);
+
+
+    List<OrderEntity> findByOrderIds(List<Long> orderIds);
+
+
 }

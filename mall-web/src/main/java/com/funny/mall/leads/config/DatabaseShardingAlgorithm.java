@@ -5,10 +5,10 @@ import org.apache.shardingsphere.api.sharding.standard.PreciseShardingValue;
 
 import java.util.Collection;
 
-public final class DatabaseShardingAlgorithm implements PreciseShardingAlgorithm<Integer> {
+public final class DatabaseShardingAlgorithm implements PreciseShardingAlgorithm<Long> {
 
     @Override
-    public String doSharding(Collection<String> collection, PreciseShardingValue<Integer> preciseShardingValue) {
+    public String doSharding(Collection<String> collection, PreciseShardingValue<Long> preciseShardingValue) {
         int size = collection.size();
         for (String each : collection) {
             if (each.endsWith(preciseShardingValue.getValue() % size + "")) {

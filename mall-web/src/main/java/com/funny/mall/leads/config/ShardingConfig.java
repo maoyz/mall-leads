@@ -7,6 +7,7 @@ import org.apache.shardingsphere.api.config.masterslave.MasterSlaveRuleConfigura
 import org.apache.shardingsphere.api.config.sharding.KeyGeneratorConfiguration;
 import org.apache.shardingsphere.api.config.sharding.ShardingRuleConfiguration;
 import org.apache.shardingsphere.api.config.sharding.TableRuleConfiguration;
+import org.apache.shardingsphere.api.config.sharding.strategy.InlineShardingStrategyConfiguration;
 import org.apache.shardingsphere.api.config.sharding.strategy.StandardShardingStrategyConfiguration;
 import org.apache.shardingsphere.shardingjdbc.api.ShardingDataSourceFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -77,9 +78,8 @@ public class ShardingConfig {
                                     @Qualifier("master1slave1") DataSource master1slave1) throws SQLException {
         ShardingRuleConfiguration shardingRuleConfig = new ShardingRuleConfiguration();
         shardingRuleConfig.getTableRuleConfigs().add(getOrderTableRuleConfiguration());
-//        shardingRuleConfig.getTableRuleConfigs().add(getOrderItemTableRuleConfiguration());
-//        shardingRuleConfig.getBindingTableGroups().add("t_order,t_order_item");
-        shardingRuleConfig.getBindingTableGroups().add("t_order");
+        shardingRuleConfig.getTableRuleConfigs().add(getOrderItemTableRuleConfiguration());
+        shardingRuleConfig.getBindingTableGroups().add("t_order,t_order_item");
 
         shardingRuleConfig.setMasterSlaveRuleConfigs(getMasterSlaveRuleConfigurations());
 
@@ -111,13 +111,15 @@ public class ShardingConfig {
         //${} 是一个groovy表达式，[]表示枚举，{...}表示一个范围。
         //整个inline表达式最终会是一个笛卡尔积，表示ds_0.t_order_0. ds_0.t_order_1
         // ds_1.t_order_0. ds_1.t_order_0
-        //主键生成列，默认的主键生成算法是snowflake
-        KeyGeneratorConfiguration keyGeneratorConfiguration = new KeyGeneratorConfiguration("SNOWFLAKE","order_id");
-        orderTableRuleConfig.setKeyGeneratorConfig(keyGeneratorConfiguration);
+        //主键生成列，默认的主键生成算法是 SNOWFLAKE
+//        KeyGeneratorConfiguration keyGeneratorConfiguration = new KeyGeneratorConfiguration("SNOWFLAKE","order_id");
+//        orderTableRuleConfig.setKeyGeneratorConfig(keyGeneratorConfiguration);
         //设置分片策略，这里简单起见直接取模，也可以使用自定义算法来实现分片规则
-//        orderTableRuleConfig.setTableShardingStrategyConfig(new InlineShardingStrategyConfiguration("order_id","t_order_${order_id % 2}"));
-//        orderTableRuleConfig.setDatabaseShardingStrategyConfig(new StandardShardingStrategyConfiguration("user_id",
-//                new DatabaseShardingAlgorithm()));
+        orderTableRuleConfig.setTableShardingStrategyConfig(new InlineShardingStrategyConfiguration("order_id",
+                "t_order_${order_id % 2}"));
+
+        orderTableRuleConfig.setDatabaseShardingStrategyConfig(new StandardShardingStrategyConfiguration("user_id",
+                new DatabaseShardingAlgorithm()));
 
         return orderTableRuleConfig;
     }
@@ -133,12 +135,11 @@ public class ShardingConfig {
 
 
 
-//
-//    private static TableRuleConfiguration getOrderItemTableRuleConfiguration() {
-//        TableRuleConfiguration result = new TableRuleConfiguration("t_order_item");
-////        result.setActualDataNodes("ds_${0..1}.t_order_item_${[0, 1]}");
-//        return result;
-//    }
+
+    private static TableRuleConfiguration getOrderItemTableRuleConfiguration() {
+        TableRuleConfiguration result = new TableRuleConfiguration("t_order_item","ds${0..1}.t_order_item_${0..1}");
+        return result;
+    }
 
 
     @Bean(name = "shardSqlSessionFactory")

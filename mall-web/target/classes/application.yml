@@ -5,29 +5,6 @@ spring:
     enabled: false # 关闭自动注解使用Java Config 的方式
 
 
-
-#  sharding:
-#    tables:
-#      t_order:
-#        actual-data-nodes: ds$->{0..1}.t_order$->{0..1}
-#        table-strategy:
-#          inline:
-#            sharding-column: order_id
-#            algorithm-expression: t_order$->{order_id % 2}
-##    t_order_item:
-##      actual-data-nodes: ds$->{0..1}.t_order_item$->{0..1}
-##      table-strategy:
-##        inline:
-##          sharding-column: order_id
-##          algorithm-expression: t_order_item$->{order_id % 2}
-
-
-#mybatis:
-#  mapperLocations: classpath:mapper/*.xml
-#  config-location: classpath:mybatis-config.xml
-#  type-aliases-package: com.funny.mall.leads.entity
-
-
 pagehelper:
   helperDialect: mysql
   reasonable: true

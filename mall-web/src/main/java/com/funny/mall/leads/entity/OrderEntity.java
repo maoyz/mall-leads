@@ -20,7 +20,7 @@ public class OrderEntity extends BaseEntity implements Serializable {
     /**
      *
      */
-    private Integer userId;
+    private Long userId;
 
     /**
      *

@@ -3,6 +3,7 @@ package com.funny.mall.leads.controller;
 import com.funny.mall.leads.dao.OrderMapper;
 import com.funny.mall.leads.entity.OrderEntity;
 import com.funny.mall.leads.util.SnowflakeIdWorker;
+import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,11 +19,12 @@ public class UserController {
     @ResponseBody
     public String save() {
         SnowflakeIdWorker idWorker = new SnowflakeIdWorker(0, 0);
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             OrderEntity orderEntity = new OrderEntity();
             orderEntity.setUserName("test user " + i);
-            orderEntity.setUserId(i);
-            orderEntity.setOrderNo(String.valueOf(idWorker.nextId()));
+            orderEntity.setUserId(Long.valueOf(i));
+            orderEntity.setOrderId(idWorker.nextId());
+            orderEntity.setOrderNo("order Name");
             orderMapper.insert(orderEntity);
         }
         return "success";
@@ -38,5 +40,12 @@ public class UserController {
     public List<OrderEntity> getUserOrders(@PathVariable Long userId) {
         return orderMapper.findByUserId(userId);
     }
+
+
+    @GetMapping("/orders/in")
+    public List<OrderEntity> findByOrderIds() {
+        return orderMapper.findByOrderIds(Lists.newArrayList(340779241480126464L, 340779267635806209L));
+    }
+
 
 }
